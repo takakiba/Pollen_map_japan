@@ -15,9 +15,10 @@ Draw the pollen distribution map and make the movie
 
 ## How to run
 1. install the required libraries
-2. run `python collect_data.py` first to update pollen data from online
-3. run `python draw_pollen_map.py` next to draw pollen distribution map
-4. run `python makemovie.py` to output movie of time history of pollen distribution
+2. get the geometry data of cities at https://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N03.html
+3. run `python collect_data.py` first to update pollen data from online
+4. run `python draw_pollen_map.py` next to draw pollen distribution map
+5. run `python makemovie.py` to output movie of time history of pollen distribution
 
 ## References
 - https://wxtech.weathernews.com/pollen/index.html
